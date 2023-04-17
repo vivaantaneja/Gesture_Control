@@ -1,11 +1,21 @@
-**Made By**
+**AI Project Made By**
 
 Vivaan Taneja, Aryan Julka, Mohak Sharma, Riya Sharma
 
 
-**Volume Control Using Gestures Open CV Project**
+**Volume Control Using Gestures**
 
 This project demonstrates how to control the volume of your device using hand gestures. It utilizes OpenCV library in Python to capture video from the device camera and detect hand gestures using the Haar Cascade classifier. The volume control is achieved by simulating key press events in Python.
+
+**Requirements**
+
+Install Open CV (pip install opencv-python)
+
+Install Mediapipe (pip install mediapipe)
+
+Install HandtrackingModule (pip3 install HandTrackingModule)
+
+Install Pycaw (pip install pycaw)
 
 **Usage**
 
