@@ -1,9 +1,6 @@
 **Made By**
 
-Vivaan Taneja
-Aryan Julka
-Mohak Sharma
-Riya Sharma
+Vivaan Taneja, Aryan Julka, Mohak Sharma, Riya Sharma
 
 
 **Volume Control Using Gestures Open CV Project**
