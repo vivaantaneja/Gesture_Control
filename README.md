@@ -13,4 +13,4 @@ Run the script: python volume_control.py
 
 The script will open up a window displaying the video captured from the device camera. Place your hand in front of the camera and use the following gestures to control the volume:
 
-Five fingers spread out, and move them up and down to adjust the volume.
+Spread five fingers out, and move them up and down to adjust the volume.
