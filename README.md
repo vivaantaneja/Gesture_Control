@@ -8,14 +8,17 @@ The hand-tracking gesture control project aims to allow users to control the vol
 At the end of our project, to analyze the reviews, we used sentiment analysis. Sentiment analysis is one of many tasks that AI agents can perform. AI agents can be programmed to perform various tasks, such as natural language processing, speech recognition, image recognition, decision-making, and many more. 
 
 
+## Code and Explanation 
 
+You need to install certain modules and libraries in your system before implementing the source code. Here is the list of this modules along with their documentations:
+•	OpenCV: https://opencv.org 
+•	MediaPipe: https://developers.google.com/mediapipe 
+•	"MediaPipe Hands: On-device Real-time Hand Tracking" by Valentin Bazarevsky et al. (2020): https://arxiv.org/abs/2006.10214 
+•	Python's time module: https://docs.python.org/3/library/time.html 
+•	NumPy: https://numpy.org/doc/stable/
+•	ctypes: https://docs.python.org/3/library/ctypes.html 
+•	comtypes: https://pythonhosted.org/comtypes/ 
+•	pycaw: https://github.com/AndreMiras/pycaw/  
+•	TextBlob: https://textblob.readthedocs.io/en/dev/ 
 
-
-## Demo
-
-Run the script: python volume_control.py
-
-The script will open up a window displaying the video captured from the device camera. Place your hand in front of the camera and use the following gestures to control the volume:
-
-Spread five fingers out, and move them up and down to adjust the volume.
 
