@@ -21,4 +21,8 @@ You need to install certain modules and libraries in your system before implemen
 •	pycaw: https://github.com/AndreMiras/pycaw/  
 •	TextBlob: https://textblob.readthedocs.io/en/dev/ 
 
+handTrackingModule.py
+This code is a Python script that uses the OpenCV and MediaPipe libraries to detect and track hands in real-time video captured by a camera. It defines a handDetector class that initializes the MediaPipe Hands module, which uses a pre-trained machine learning model to detect and track the location of hands in an image. The class contains methods to find hands in an image and to find the positions of landmarks on a detected hand. The main() function creates an instance of the handDetector class and uses it to process the video stream from the camera, displaying the video and the landmarks detected on the hand in real-time. Additionally, it displays the frames per second (FPS) of the processed video. This code is important as it demonstrates how machine learning can be used to detect and track objects in real-time, opening up many potential applications in fields such as robotics, computer vision, and human-computer interaction.
+
+
 
