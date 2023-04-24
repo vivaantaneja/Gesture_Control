@@ -21,8 +21,17 @@ You need to install certain modules and libraries in your system before implemen
 •	pycaw: https://github.com/AndreMiras/pycaw/  
 •	TextBlob: https://textblob.readthedocs.io/en/dev/ 
 
-handTrackingModule.py
+handTrackingModule.py:
+
 This code is a Python script that uses the OpenCV and MediaPipe libraries to detect and track hands in real-time video captured by a camera. It defines a handDetector class that initializes the MediaPipe Hands module, which uses a pre-trained machine learning model to detect and track the location of hands in an image. The class contains methods to find hands in an image and to find the positions of landmarks on a detected hand. The main() function creates an instance of the handDetector class and uses it to process the video stream from the camera, displaying the video and the landmarks detected on the hand in real-time. Additionally, it displays the frames per second (FPS) of the processed video. This code is important as it demonstrates how machine learning can be used to detect and track objects in real-time, opening up many potential applications in fields such as robotics, computer vision, and human-computer interaction.
+
+VolumeControl.py:
+
+This code is an example of using gesture control AI to control the volume of a computer using hand gestures detected by a webcam. The code imports the necessary libraries, including OpenCV for image processing, numpy for numerical operations, and a custom handTrackingModule that uses the MediaPipe library to detect and track hand landmarks in real-time. The code initializes the webcam and audio devices and sets the minimum and maximum volume values. It then enters a loop where it reads frames from the webcam, processes them using the handTrackingModule to detect hand landmarks, and calculates the distance between two specific landmarks on the hand to determine the desired volume level. The volume level is then set using the pycaw library, and a visual representation of the volume level is displayed on the screen as a vertical bar. The code also displays the FPS of the webcam feed and updates the display continuously. 
+
+sentimentanalysis.py:
+
+This is a Python code snippet that uses the TextBlob library to analyze the sentiment of a given sentence. The code defines a function called get_sentiment which takes a sentence as input and returns the sentiment of the sentence as either "positive", "negative", or "neutral". The function first creates a TextBlob object with the input sentence. Then, it uses the sentiment property of the TextBlob object to get the polarity score of the sentence. The polarity score ranges from -1 to 1, with -1 indicating a very negative sentiment and 1 indicating a very positive sentiment. Based on the polarity score, the function classifies the sentiment as positive if the polarity score is greater than 0, negative if it is less than 0, or neutral if it is exactly 0. Finally, the function returns the sentiment. The code also includes an example usage, where the user is prompted to enter a sentence and the get_sentiment function is called on that sentence to determine its sentiment. The sentiment is then printed to the console.
 
 
 
