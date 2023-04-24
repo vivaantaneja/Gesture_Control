@@ -1,7 +1,6 @@
+##Problem statement: 
+To validate a hand tracking module that can detect and track the movements of the hand in real-time and recognize specific hand gestures for controlling electronic devices or applications.
 
-# Gesture Control
-
-This project demonstrates how to control the volume of your device using hand gestures. It utilizes OpenCV library in Python to capture video from the device camera and detect hand gestures using the Haar Cascade classifier. The volume control is achieved by simulating key press events in Python.
 
 
 
